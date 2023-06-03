@@ -6,11 +6,13 @@ The enhancement of an OS Sequential Compression Device (SCD), which combines sof
 This project has been initied by Schara et al. from Rice University, Huston, and was taken up for a master thesis at UCLouvain by Arthur Van Geersdaele and Thalie Sarafidis. 
 
 ## Structure of the .git
-A branch has been created for every aspect of the prototype:
+A directory has been created for every aspect of the prototype:
 - The eletronic design
 - The Arduino SCT Software
 - The pneumatic band conception
 - The risk management (empty at the time this txt file is written)
+
+Don't hesitate to create a new branch for every new iteration of the prototype.
 
 ## Support
 Arthur Van Geersdaele permanent email: arthurvg@gmail.com
