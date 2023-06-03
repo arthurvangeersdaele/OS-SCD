@@ -1,0 +1,40 @@
+WARNING: SVG has to be converted to paths before being converted to RXF for laser-cutting.
+         For better cutting, you can combine the curves using the cutting program.
+Tips: The ID of the band is structured as follow 
+      [n - ID - l - g - L - ll - gg - Gplus - Gminus]_tag
+=========================================================================================
+
+Design specifications
+- Reference ID: [5-4-30-30-60-5-5-50-50]_standardL
+- Input diameter: 4mm
+- Number of pouches: 5
+- Dimensions of a pouch: 30x30mm
+- Dimensions of the band: 320.0x60mm
+- Distance between each pouch: 5mm
+- Inner tube width: 5mm
+- Additionnal length at the beginning of the pouch-chain (air input to the left): 50mm
+- Additionnal length at the end of the pouch-chain: 50mm
+- Elbow dimensions: 20x50mm
+Others
+- TPU Textile dimensions needed for the 2 heat_sealable_layers: 320.0x125mm
+- Baking paper dimensions needed for the intermediate_layer: 190x72.5mm
+- Nyamara Volume of the band: 31746.77420681033mm3
+- Nyamara Volume of the band considering interconnections: 31864.35485202074mm3
+
+NB: The id-box dimensions needed for laser-cutting are written at the end of the filenames.
+NB2: Depending on the material used, it can be a retractation of the fabric during the laser-cutting.
+     Take that in account while setting your parameters.
+
+Additionnal information on the fabrication process, handwritten
+- Material: One-sided TPU coated Textile (70d)
+- Fusion process parameters: T=200Celsius, t=30s (set to 200C, 30s default for TPU)
+
+Other notes, remarks..., about [5-4-30-30-60-5-5-50-50]_standardL
+***************************************************************************************
+
+
+
+***************************************************************************************
+
+
+ Info file automatically generated at date : 23/04/27 - time : 16h03min40s  using IPCdevice_designer_v2.py
